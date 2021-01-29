@@ -25,6 +25,10 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: 'Potta One', cursive;
+	font-size: 18px;
+	line-height: 32px;
+	color: #333;
 }
 ol, ul {
 	list-style: none;
@@ -51,3 +55,21 @@ table {
 .bekezdes{
     background-color: rgba(255, 0, 0, .3);
 }
+header{
+	font-family: 'Hachi Maru Pop', cursive;
+}
+header[p]{
+	color: #8c8e9b;
+}
+h1{
+	font-size: 22,8px;
+}
+h2{
+	font-size: 25.6px;
+	color: #e5127d;
+}
+.fo[p]{
+	font-size: 18px;
+	padding: 2px;
+}
+

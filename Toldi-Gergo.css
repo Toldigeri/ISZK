@@ -26,8 +26,8 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	font-family: 'Potta One', cursive;
-	font-size: 18px;
-	line-height: 32px;
+	font-size: 1.125rem;
+	line-height: 2rem ;
 	color: #333;
 }
 ol, ul {
@@ -45,12 +45,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*CSS reset vége*/
 .felso
 {
     background-color: rgba(255, 248, 53, .3);
 }
 .fo{
-    background-color: rgba(140, 96, 255, .3);
+	background-color: rgba(140, 96, 255, .3);
 }
 .bekezdes{
     background-color: rgba(255, 0, 0, .3);
@@ -62,14 +63,17 @@ header[p]{
 	color: #8c8e9b;
 }
 h1{
-	font-size: 22,8px;
+	font-size: 1.8rem;
 }
 h2{
-	font-size: 25.6px;
+	font-size: 1.6rem;
 	color: #e5127d;
 }
-.fo[p]{
-	font-size: 18px;
-	padding: 2px;
+.fo p{
+	font-size: 1.125rem;
+	padding: 0.125rem;
+}
+.picture{
+	width: 100%;
 }
 
